@@ -1,0 +1,60 @@
+<!-- NOTHING to SEE here <- POWERED by lower TO UPPER -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>lower - UPPER</title>
+		<style>
+			body {
+				BaCkGrOuNd: #eee;
+				FoNt-SiZe: 14px;
+			}
+			.CoNtAiNeR {
+				WiDtH: 1200px;
+				mArGiN: 0 auto;
+			}
+			h1 {
+				FoNt-SiZe: 3rem;
+				FoNt-WeIgHt: 300;
+				TeXt-AlIgN: center;
+			}
+			p {
+				FoNt-SiZe: 1rem;
+				FoNt-weight: 200;
+				FoNt-style: italic;
+				TeXt-AlIgN: center;
+			}
+			textarea {
+				WiDtH: 100%;
+				hEiGhT: 200px;
+				rEsIzE: none;
+			}
+			textarea:last-child {
+				MaRgIn-ToP: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="CoNtAiNeR">
+			<h1>lower - upper</h1>
+			<p>never AGAIN you HAVE to RELY on CAPSLOCK or SHIFT</p>
+			<textarea id="lower" placeholder="lowercase"></textarea>
+			<textarea id="upper" placeholder="UPPERCASE"></textarea>
+		</div>
+
+		<script>
+			document.getElementById('lower').addEventListener("keyup", function (e) {
+				replace(this.value);
+			}, false);
+
+			document.getElementById('upper').addEventListener("keyup", function (e) {
+				replace(this.value);
+			}, false);
+
+			function replace(value) {
+				// DoNt LoOk At Me
+				document.getElementById("lower").value = value.toLowerCase();
+				document.getElementById("upper").value = value.toUpperCase();
+			}
+		</script>
+	</body>
+</html>
