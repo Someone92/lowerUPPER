@@ -2,6 +2,10 @@
 
 What if there was a tool that could instantly transform to and from lower- uppercase. Well there is and it's called lower - UPPER, never again your hands will hurt from clicking/holding capslock/shift.
 
+
+## Demo
+- https://someone92.github.io/lowerUPPER
+
 ## Getting Started
 
 This is very important, just double click on the file index.html and everything should work. If it's not working ur OS is corrupt and u need to reinstall it.
